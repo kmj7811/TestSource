@@ -8,3 +8,4 @@
 7. 버튼을 누르면 해당 sig 가 tcu main 으로 가서 sendNoti 를 통해 등록된 call 이 실행 된다.
 
 8. Just git test
+9. Just git test 2
