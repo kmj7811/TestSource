@@ -1,0 +1,10 @@
+1. svclayer_NadIfMgr 을 compile 하여 so 를 만든다
+2. 만들어지 so 를 starMain 에 copy 한다
+3. startMain 을 compile 한다
+4. 만들어진 startMain 실행 파일과 생성된 lib.so 를 adb 로 TCU 에 밀어 넣는다
+   adb push xxxx /usrdata
+5. startMain 을 실행 시킨다..그러면 tcu_main 이 실행 된다..또한 call 관련 gps 관련 callback 이 등록 된다.
+6. 이때 MCU Mgr 가 실행 중이여야 한다
+7. 버튼을 누르면 해당 sig 가 tcu main 으로 가서 sendNoti 를 통해 등록된 call 이 실행 된다.
+
+
