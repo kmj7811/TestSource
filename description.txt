@@ -1,10 +1,10 @@
-1. svclayer_NadIfMgr À» compile ÇÏ¿© so ¸¦ ¸¸µç´Ù
-2. ¸¸µé¾îÁö so ¸¦ starMain ¿¡ copy ÇÑ´Ù
-3. startMain À» compile ÇÑ´Ù
-4. ¸¸µé¾îÁø startMain ½ÇÇà ÆÄÀÏ°ú »ı¼ºµÈ lib.so ¸¦ adb ·Î TCU ¿¡ ¹Ğ¾î ³Ö´Â´Ù
+1. svclayer_NadIfMgr ì„ compile í•˜ì—¬ so ë¥¼ ë§Œë“ ë‹¤
+2. ë§Œë“¤ì–´ì§€ so ë¥¼ starMain ì— copy í•œë‹¤
+3. startMain ì„ compile í•œë‹¤
+4. ë§Œë“¤ì–´ì§„ startMain ì‹¤í–‰ íŒŒì¼ê³¼ ìƒì„±ëœ lib.so ë¥¼ adb ë¡œ TCU ì— ë°€ì–´ ë„£ëŠ”ë‹¤
    adb push xxxx /usrdata
-5. startMain À» ½ÇÇà ½ÃÅ²´Ù..±×·¯¸é tcu_main ÀÌ ½ÇÇà µÈ´Ù..¶ÇÇÑ call °ü·Ã gps °ü·Ã callback ÀÌ µî·Ï µÈ´Ù.
-6. ÀÌ¶§ MCU Mgr °¡ ½ÇÇà ÁßÀÌ¿©¾ß ÇÑ´Ù
-7. ¹öÆ°À» ´©¸£¸é ÇØ´ç sig °¡ tcu main À¸·Î °¡¼­ sendNoti ¸¦ ÅëÇØ µî·ÏµÈ call ÀÌ ½ÇÇà µÈ´Ù.
+5. startMain ì„ ì‹¤í–‰ ì‹œí‚¨ë‹¤..ê·¸ëŸ¬ë©´ tcu_main ì´ ì‹¤í–‰ ëœë‹¤..ë˜í•œ call ê´€ë ¨ gps ê´€ë ¨ callback ì´ ë“±ë¡ ëœë‹¤.
+6. ì´ë•Œ MCU Mgr ê°€ ì‹¤í–‰ ì¤‘ì´ì—¬ì•¼ í•œë‹¤
+7. ë²„íŠ¼ì„ ëˆ„ë¥´ë©´ í•´ë‹¹ sig ê°€ tcu main ìœ¼ë¡œ ê°€ì„œ sendNoti ë¥¼ í†µí•´ ë“±ë¡ëœ call ì´ ì‹¤í–‰ ëœë‹¤.
 
-
+8. Just git test
